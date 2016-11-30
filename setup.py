@@ -27,7 +27,6 @@ setup(
     packages=find_packages(exclude=['tests*', 'benchmarks*']),
     include_package_data=True,
     install_requires=[
-        'avro==1.9.0-yelp4',
         'cached-property>=0.1.5',
         'cffi>=1.1.2',
         'cryptography<=1.3.4',
@@ -42,8 +41,9 @@ setup(
         'pyramid_zipkin>=0.16.0',
         'PyStaticConfiguration>=0.9.0',
         'simplejson>=2.1.2',
-        'swaggerpy>=0.7.6',
-        'swagger_zipkin>=0.1.0'
+        'swaggerpy>=0.2.1',
+        'swagger_zipkin>=0.1.0',
+        'yelp-avro==1.9.2'
     ],
     extras_require={
         'tools': [
